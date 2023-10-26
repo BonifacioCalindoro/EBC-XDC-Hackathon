@@ -1,4 +1,4 @@
-- pip install py-solc-x web3 cryptography telegram-python-bot
+- pip install py-solc-x web3 cryptography python-telegram-bot
 - change 'tg-token' with your telegram bot token
 - python maian.py
 

@@ -16,7 +16,7 @@ CHOICE, PASSWORD, PASSWORDAGAIN, CREATEAGAIN, IMPORT, IMPORTEDPASS, IMPORTEDPASS
 TOADDRESS, AMOUNT, WITHDRAWPASSWORD = range(3)
 GOTPASS = range(1)
 FUNDAMOUNT, FUNDLIMIT, FUNDPASSWORD = range(3)
-tg_token = '6411551447:AAHN5O9tCXHwKMtG85Ow5VVbXEVMF5TQV7o'
+tg_token = 'YOUR_TG_TOKEN'
 w3 = Web3(Web3.HTTPProvider("https://rpc.apothem.network"))
 w3.eth.set_gas_price_strategy(rpc_gas_price_strategy)
 special_characters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")"]
